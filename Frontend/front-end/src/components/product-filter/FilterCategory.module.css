@@ -1,0 +1,11 @@
+.categoryHeader {
+  display: 'flex';
+  justify-content: 'space-between';
+  vertical-align: 'baseline';
+}
+
+.categoryList {
+  list-style-type: none;
+  font-size: 1.25em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

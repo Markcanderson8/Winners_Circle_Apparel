@@ -1,0 +1,82 @@
+.containerSlide {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+.containerStyles {
+  width: 500px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.slideStyles {
+  width: 90%;
+  height: 250px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftArrow {
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 5%;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 5%;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+}
+
+.dot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 10px;
+  color: white;
+}
+
+.blackDot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 10px;
+  color: black;
+}
+
+.title {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+}
+
+.link:hover {
+  text-decoration: none;
+}

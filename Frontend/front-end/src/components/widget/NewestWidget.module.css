@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    /* right: 0%; */
+    padding-top: 4%;
+  padding-bottom: 4%;
+  right: 10%;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 5em;
+    border-radius: 25px;
+    border: 1px solid rgb(204, 203, 203);
+    margin: 20px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+    background-color: rgb(235, 231, 231);
+}
+
+.title {
+    position: relative;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+.grid_1 {
+    display: grid;
+    row-gap: 1em;
+    grid-template-columns: repeat(3, 33% [col-start]);
+    margin-bottom: 2em;
+}
+
+.grid_2 {
+    display: grid;
+    row-gap: 1em;
+    grid-template-columns: repeat(2, 40% [col-start]);
+    margin-left: 8em;
+}
+
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 150px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product_card {
+    width: 100%;
+    position: relative;
+}
+
+.product_tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_tumb img {
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
+
+.product_details {
+    text-align: center;
+}
+
+.product_catagory {
+    display: block;
+    font-size: 0.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.product_details h4 a {
+    font-weight: 700;
+    font-size: 0.5em;
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.product_details h4 a:hover {
+    color: #FBB72C;
+}
+
+.product_details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product_price {
+    font-size: 1em;
+    color: #313131;
+    font-weight: 700;
+}
+
+.product_price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}

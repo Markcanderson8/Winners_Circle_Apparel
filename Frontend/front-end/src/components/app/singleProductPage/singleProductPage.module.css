@@ -1,0 +1,23 @@
+.productContainer {
+  min-height: 2000px;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 345px;
+  margin: 2rem 0;
+}
+
+.title {
+  text-align: center;
+  margin: 3rem auto;
+  text-shadow: 3px 4px 4px orange;
+}

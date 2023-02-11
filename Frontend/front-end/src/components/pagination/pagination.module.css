@@ -1,0 +1,33 @@
+.btn {
+  border: none;
+  color: black;
+  outline: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(38, 34, 34);
+  padding: .5rem;
+}
+
+.btn:hover {
+  background-color: #dee2e6;
+  cursor: pointer;
+}
+
+.btn,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.clicked,
+.clicked:active,
+.clicked:focus {
+  border: none;
+  color: black;
+  outline: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(38, 34, 34);
+  background-color: rgb(182, 182, 182);
+  padding: .5rem;
+}

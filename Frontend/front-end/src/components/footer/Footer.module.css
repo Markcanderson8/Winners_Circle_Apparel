@@ -1,0 +1,102 @@
+footer {
+  clear: both;
+  background-color: #1c1f4c;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Calibri;
+  margin: 0;
+  padding: 0;
+}
+
+.left_side {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+
+}
+
+.footer_copyright {
+  margin-top: 2rem;
+  text-align: center;
+  clear: both;
+  background-color: #fccf17;
+  color: aliceblue;
+  padding-top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Calibri;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.shop {
+  margin-left: -9.5rem;
+}
+
+.links {
+  list-style-type: none;
+  list-style-position: outside;
+  font-family: Calibri;
+  background-color: #1c1f4c;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.list_unstyled {
+  margin-left: -7.5rem;
+}
+
+.about_title {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  font-size: 25px;
+  margin-right: 8rem;
+}
+
+.shop {
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.aColor {
+  text-decoration: none;
+}
+
+.about_para {
+  width: 650px;
+  color: aliceblue;
+  list-style-type: none;
+  list-style-position: outside;
+  font-family: Calibri;
+  background-color: #1c1f4c;
+  line-height: 2rem;
+  margin-top: -0.25rem;
+  font-size: 18px;
+  margin-right: 6rem;
+  padding-right: 2rem;
+}
+
+.footer_title {
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.footer_content {
+  color: aliceblue;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+}
+
+.icons {
+  display: inline-grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 16px;
+}

@@ -1,0 +1,45 @@
+.app {
+  margin: 75px 20px 20px 25%;
+  min-height: 600px;
+  width: 50em;
+  align-items: center;
+ justify-content: center;
+}
+.reviews{
+line-height: 25px;
+list-style: none;
+}
+.reviews li{
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  margin: 4px;
+  padding: 5px;
+}
+.review{
+  background-color: white;
+}
+.stars{
+  position: relative;
+padding-right: 4px;
+padding-top: 4px;
+top: 2px;
+color: #FCCF17;
+}
+.review-description{
+  font-size: 15px;
+}
+.review-title{
+  font-size: 18px;
+}
+.colorName{
+  font-size: 13px;
+  color: rgb(65, 65, 65);
+}
+.user-pic{
+ float: left;
+ margin-right: 10px;
+}
+.user{
+  margin-top: 10px;
+}
